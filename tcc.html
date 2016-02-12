@@ -1,14 +1,13 @@
 <head>
-  <title>tcc</title>
+  <title>Tech City Church</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
+  {{> loginButtons}}
+  <a href="/admin">admin</a>
+  {{> debug}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="debug">
+  <p>Debug:</p>
 </template>
